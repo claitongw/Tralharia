@@ -1,0 +1,875 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\nodejs\\node.exe',
+1 verbose cli   'C:\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'laravel-elixir-webpack-official',
+1 verbose cli   '--save-dev' ]
+2 info using npm@3.10.8
+3 info using node@v6.9.1
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData laravel-elixir-webpack-official@^1.0.2
+8 silly fetchNamedPackageData laravel-elixir-webpack-official
+9 silly mapToRegistry name laravel-elixir-webpack-official
+10 silly mapToRegistry using default registry
+11 silly mapToRegistry registry https://registry.npmjs.org/
+12 silly mapToRegistry data Result {
+12 silly mapToRegistry   raw: 'laravel-elixir-webpack-official',
+12 silly mapToRegistry   scope: null,
+12 silly mapToRegistry   escapedName: 'laravel-elixir-webpack-official',
+12 silly mapToRegistry   name: 'laravel-elixir-webpack-official',
+12 silly mapToRegistry   rawSpec: '',
+12 silly mapToRegistry   spec: 'latest',
+12 silly mapToRegistry   type: 'tag' }
+13 silly mapToRegistry uri https://registry.npmjs.org/laravel-elixir-webpack-official
+14 verbose request uri https://registry.npmjs.org/laravel-elixir-webpack-official
+15 verbose request no auth needed
+16 info attempt registry request try #1 at 10:06:41
+17 verbose request id 8a729f13de3a8aa7
+18 verbose etag "1JPTTWH10PAEWRBWAOPAYXNQO"
+19 http request GET https://registry.npmjs.org/laravel-elixir-webpack-official
+20 http 304 https://registry.npmjs.org/laravel-elixir-webpack-official
+21 verbose headers { date: 'Sat, 12 Nov 2016 12:06:42 GMT',
+21 verbose headers   via: '1.1 varnish',
+21 verbose headers   'cache-control': 'max-age=300',
+21 verbose headers   etag: '"1JPTTWH10PAEWRBWAOPAYXNQO"',
+21 verbose headers   age: '0',
+21 verbose headers   connection: 'keep-alive',
+21 verbose headers   'x-served-by': 'cache-gru7120-GRU',
+21 verbose headers   'x-cache': 'MISS',
+21 verbose headers   'x-cache-hits': '0',
+21 verbose headers   'x-timer': 'S1478952402.644166,VS0,VE158',
+21 verbose headers   vary: 'Accept-Encoding' }
+22 silly get cb [ 304,
+22 silly get   { date: 'Sat, 12 Nov 2016 12:06:42 GMT',
+22 silly get     via: '1.1 varnish',
+22 silly get     'cache-control': 'max-age=300',
+22 silly get     etag: '"1JPTTWH10PAEWRBWAOPAYXNQO"',
+22 silly get     age: '0',
+22 silly get     connection: 'keep-alive',
+22 silly get     'x-served-by': 'cache-gru7120-GRU',
+22 silly get     'x-cache': 'MISS',
+22 silly get     'x-cache-hits': '0',
+22 silly get     'x-timer': 'S1478952402.644166,VS0,VE158',
+22 silly get     vary: 'Accept-Encoding' } ]
+23 verbose etag https://registry.npmjs.org/laravel-elixir-webpack-official from cache
+24 verbose get saving laravel-elixir-webpack-official to C:\Users\clcgw\AppData\Roaming\npm-cache\registry.npmjs.org\laravel-elixir-webpack-official\.cache.json
+25 verbose correctMkdir C:\Users\clcgw\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+26 silly install normalizeTree
+27 silly loadCurrentTree Finishing
+28 silly loadIdealTree Starting
+29 silly install loadIdealTree
+30 silly cloneCurrentTree Starting
+31 silly install cloneCurrentTreeToIdealTree
+32 silly cloneCurrentTree Finishing
+33 silly loadShrinkwrap Starting
+34 silly install loadShrinkwrap
+35 silly loadShrinkwrap Finishing
+36 silly loadAllDepsIntoIdealTree Starting
+37 silly install loadAllDepsIntoIdealTree
+38 silly resolveWithNewModule laravel-elixir-webpack-official@1.0.9 checking installable status
+39 silly cache add args [ 'laravel-elixir-webpack-official@^1.0.2', null ]
+40 verbose cache add spec laravel-elixir-webpack-official@^1.0.2
+41 silly cache add parsed spec Result {
+41 silly cache add   raw: 'laravel-elixir-webpack-official@^1.0.2',
+41 silly cache add   scope: null,
+41 silly cache add   escapedName: 'laravel-elixir-webpack-official',
+41 silly cache add   name: 'laravel-elixir-webpack-official',
+41 silly cache add   rawSpec: '^1.0.2',
+41 silly cache add   spec: '>=1.0.2 <2.0.0',
+41 silly cache add   type: 'range' }
+42 silly addNamed laravel-elixir-webpack-official@>=1.0.2 <2.0.0
+43 verbose addNamed ">=1.0.2 <2.0.0" is a valid semver range for laravel-elixir-webpack-official
+44 silly addNameRange { name: 'laravel-elixir-webpack-official',
+44 silly addNameRange   range: '>=1.0.2 <2.0.0',
+44 silly addNameRange   hasData: false }
+45 silly mapToRegistry name laravel-elixir-webpack-official
+46 silly mapToRegistry using default registry
+47 silly mapToRegistry registry https://registry.npmjs.org/
+48 silly mapToRegistry data Result {
+48 silly mapToRegistry   raw: 'laravel-elixir-webpack-official',
+48 silly mapToRegistry   scope: null,
+48 silly mapToRegistry   escapedName: 'laravel-elixir-webpack-official',
+48 silly mapToRegistry   name: 'laravel-elixir-webpack-official',
+48 silly mapToRegistry   rawSpec: '',
+48 silly mapToRegistry   spec: 'latest',
+48 silly mapToRegistry   type: 'tag' }
+49 silly mapToRegistry uri https://registry.npmjs.org/laravel-elixir-webpack-official
+50 verbose addNameRange registry:https://registry.npmjs.org/laravel-elixir-webpack-official not in flight; fetching
+51 verbose get https://registry.npmjs.org/laravel-elixir-webpack-official not expired, no request
+52 silly addNameRange number 2 { name: 'laravel-elixir-webpack-official',
+52 silly addNameRange   range: '>=1.0.2 <2.0.0',
+52 silly addNameRange   hasData: true }
+53 silly addNameRange versions [ 'laravel-elixir-webpack-official',
+53 silly addNameRange   [ '1.0.0',
+53 silly addNameRange     '1.0.1',
+53 silly addNameRange     '1.0.2',
+53 silly addNameRange     '1.0.3',
+53 silly addNameRange     '1.0.4',
+53 silly addNameRange     '1.0.5',
+53 silly addNameRange     '1.0.6',
+53 silly addNameRange     '1.0.8',
+53 silly addNameRange     '1.0.9' ] ]
+54 silly addNamed laravel-elixir-webpack-official@1.0.9
+55 verbose addNamed "1.0.9" is a plain semver version for laravel-elixir-webpack-official
+56 silly cache afterAdd laravel-elixir-webpack-official@1.0.9
+57 verbose afterAdd C:\Users\clcgw\AppData\Roaming\npm-cache\laravel-elixir-webpack-official\1.0.9\package\package.json not in flight; writing
+58 verbose correctMkdir C:\Users\clcgw\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+59 verbose afterAdd C:\Users\clcgw\AppData\Roaming\npm-cache\laravel-elixir-webpack-official\1.0.9\package\package.json written
+60 silly fetchNamedPackageData buble
+61 silly mapToRegistry name buble
+62 silly mapToRegistry using default registry
+63 silly mapToRegistry registry https://registry.npmjs.org/
+64 silly mapToRegistry data Result {
+64 silly mapToRegistry   raw: 'buble',
+64 silly mapToRegistry   scope: null,
+64 silly mapToRegistry   escapedName: 'buble',
+64 silly mapToRegistry   name: 'buble',
+64 silly mapToRegistry   rawSpec: '',
+64 silly mapToRegistry   spec: 'latest',
+64 silly mapToRegistry   type: 'tag' }
+65 silly mapToRegistry uri https://registry.npmjs.org/buble
+66 silly fetchNamedPackageData buble-loader
+67 silly mapToRegistry name buble-loader
+68 silly mapToRegistry using default registry
+69 silly mapToRegistry registry https://registry.npmjs.org/
+70 silly mapToRegistry data Result {
+70 silly mapToRegistry   raw: 'buble-loader',
+70 silly mapToRegistry   scope: null,
+70 silly mapToRegistry   escapedName: 'buble-loader',
+70 silly mapToRegistry   name: 'buble-loader',
+70 silly mapToRegistry   rawSpec: '',
+70 silly mapToRegistry   spec: 'latest',
+70 silly mapToRegistry   type: 'tag' }
+71 silly mapToRegistry uri https://registry.npmjs.org/buble-loader
+72 silly fetchNamedPackageData lodash
+73 silly mapToRegistry name lodash
+74 silly mapToRegistry using default registry
+75 silly mapToRegistry registry https://registry.npmjs.org/
+76 silly mapToRegistry data Result {
+76 silly mapToRegistry   raw: 'lodash',
+76 silly mapToRegistry   scope: null,
+76 silly mapToRegistry   escapedName: 'lodash',
+76 silly mapToRegistry   name: 'lodash',
+76 silly mapToRegistry   rawSpec: '',
+76 silly mapToRegistry   spec: 'latest',
+76 silly mapToRegistry   type: 'tag' }
+77 silly mapToRegistry uri https://registry.npmjs.org/lodash
+78 silly fetchNamedPackageData webpack
+79 silly mapToRegistry name webpack
+80 silly mapToRegistry using default registry
+81 silly mapToRegistry registry https://registry.npmjs.org/
+82 silly mapToRegistry data Result {
+82 silly mapToRegistry   raw: 'webpack',
+82 silly mapToRegistry   scope: null,
+82 silly mapToRegistry   escapedName: 'webpack',
+82 silly mapToRegistry   name: 'webpack',
+82 silly mapToRegistry   rawSpec: '',
+82 silly mapToRegistry   spec: 'latest',
+82 silly mapToRegistry   type: 'tag' }
+83 silly mapToRegistry uri https://registry.npmjs.org/webpack
+84 silly fetchOtherPackageData webpack-stream@github:jeroennoten/webpack-stream#patch-1
+85 silly cache add args [ 'webpack-stream@github:jeroennoten/webpack-stream#patch-1',
+85 silly cache add   null ]
+86 verbose cache add spec webpack-stream@github:jeroennoten/webpack-stream#patch-1
+87 silly cache add parsed spec Result {
+87 silly cache add   raw: 'webpack-stream@github:jeroennoten/webpack-stream#patch-1',
+87 silly cache add   scope: null,
+87 silly cache add   escapedName: 'webpack-stream',
+87 silly cache add   name: 'webpack-stream',
+87 silly cache add   rawSpec: 'github:jeroennoten/webpack-stream#patch-1',
+87 silly cache add   spec: 'github:jeroennoten/webpack-stream#patch-1',
+87 silly cache add   type: 'hosted',
+87 silly cache add   hosted:
+87 silly cache add    { type: 'github',
+87 silly cache add      ssh: 'git@github.com:jeroennoten/webpack-stream.git#patch-1',
+87 silly cache add      sshUrl: 'git+ssh://git@github.com/jeroennoten/webpack-stream.git#patch-1',
+87 silly cache add      httpsUrl: 'git+https://github.com/jeroennoten/webpack-stream.git#patch-1',
+87 silly cache add      gitUrl: 'git://github.com/jeroennoten/webpack-stream.git#patch-1',
+87 silly cache add      shortcut: 'github:jeroennoten/webpack-stream#patch-1',
+87 silly cache add      directUrl: 'https://raw.githubusercontent.com/jeroennoten/webpack-stream/patch-1/package.json' } }
+88 verbose addRemoteGit caching github:jeroennoten/webpack-stream#patch-1
+89 verbose addRemoteGit jeroennoten/webpack-stream#patch-1 is a repository hosted by github
+90 silly tryGitProto attempting to clone git://github.com/jeroennoten/webpack-stream.git#patch-1
+91 silly tryClone cloning jeroennoten/webpack-stream#patch-1 via git://github.com/jeroennoten/webpack-stream.git#patch-1
+92 verbose tryClone git-github-com-jeroennoten-webpack-stream-git-patch-1-5e1462f4 not in flight; caching
+93 verbose correctMkdir C:\Users\clcgw\AppData\Roaming\npm-cache\_git-remotes correctMkdir not in flight; initializing
+94 verbose request uri https://registry.npmjs.org/buble-loader
+95 verbose request no auth needed
+96 info attempt registry request try #1 at 10:06:42
+97 verbose etag "95FI517V6LVOPY4X316CY6I4A"
+98 http request GET https://registry.npmjs.org/buble-loader
+99 verbose request uri https://registry.npmjs.org/lodash
+100 verbose request no auth needed
+101 info attempt registry request try #1 at 10:06:42
+102 verbose etag "74ZCVBVX3UYT3M3SXMFNFI0NL"
+103 http request GET https://registry.npmjs.org/lodash
+104 verbose request uri https://registry.npmjs.org/buble
+105 verbose request no auth needed
+106 info attempt registry request try #1 at 10:06:42
+107 verbose etag "DG72AB6DH42CYET9L8KHVEGVW"
+108 http request GET https://registry.npmjs.org/buble
+109 verbose request uri https://registry.npmjs.org/webpack
+110 verbose request no auth needed
+111 info attempt registry request try #1 at 10:06:42
+112 verbose etag "E94M6NW5MBZ921AGWAKOMMCZZ"
+113 http request GET https://registry.npmjs.org/webpack
+114 warn addRemoteGit Error: not found: git
+114 warn addRemoteGit     at getNotFoundError (C:\nodejs\node_modules\npm\node_modules\which\which.js:14:12)
+114 warn addRemoteGit     at F (C:\nodejs\node_modules\npm\node_modules\which\which.js:69:19)
+114 warn addRemoteGit     at E (C:\nodejs\node_modules\npm\node_modules\which\which.js:81:29)
+114 warn addRemoteGit     at C:\nodejs\node_modules\npm\node_modules\which\which.js:90:16
+114 warn addRemoteGit     at C:\nodejs\node_modules\npm\node_modules\which\node_modules\isexe\index.js:44:5
+114 warn addRemoteGit     at C:\nodejs\node_modules\npm\node_modules\which\node_modules\isexe\windows.js:29:5
+114 warn addRemoteGit     at FSReqWrap.oncomplete (fs.js:123:15)
+114 warn addRemoteGit  jeroennoten/webpack-stream#patch-1 resetting remote C:\Users\clcgw\AppData\Roaming\npm-cache\_git-remotes\git-github-com-jeroennoten-webpack-stream-git-patch-1-5e1462f4 because of error: { Error: not found: git
+114 warn addRemoteGit     at getNotFoundError (C:\nodejs\node_modules\npm\node_modules\which\which.js:14:12)
+114 warn addRemoteGit     at F (C:\nodejs\node_modules\npm\node_modules\which\which.js:69:19)
+114 warn addRemoteGit     at E (C:\nodejs\node_modules\npm\node_modules\which\which.js:81:29)
+114 warn addRemoteGit     at C:\nodejs\node_modules\npm\node_modules\which\which.js:90:16
+114 warn addRemoteGit     at C:\nodejs\node_modules\npm\node_modules\which\node_modules\isexe\index.js:44:5
+114 warn addRemoteGit     at C:\nodejs\node_modules\npm\node_modules\which\node_modules\isexe\windows.js:29:5
+114 warn addRemoteGit     at FSReqWrap.oncomplete (fs.js:123:15) code: 'ENOGIT' }
+115 info resetRemote resetting C:\Users\clcgw\AppData\Roaming\npm-cache\_git-remotes\git-github-com-jeroennoten-webpack-stream-git-patch-1-5e1462f4 for jeroennoten/webpack-stream#patch-1
+116 silly gentlyRm C:\Users\clcgw\AppData\Roaming\npm-cache\_git-remotes\git-github-com-jeroennoten-webpack-stream-git-patch-1-5e1462f4 is being purged
+117 verbose gentlyRm don't care about contents; nuking C:\Users\clcgw\AppData\Roaming\npm-cache\_git-remotes\git-github-com-jeroennoten-webpack-stream-git-patch-1-5e1462f4
+118 silly vacuum-fs purging C:\Users\clcgw\AppData\Roaming\npm-cache\_git-remotes\git-github-com-jeroennoten-webpack-stream-git-patch-1-5e1462f4
+119 silly vacuum-fs quitting because other entries in C:\Users\clcgw\AppData\Roaming\npm-cache\_git-remotes
+120 error git clone --template=C:\Users\clcgw\AppData\Roaming\npm-cache\_git-remotes\_templates --mirror git://github.com/jeroennoten/webpack-stream.git C:\Users\clcgw\AppData\Roaming\npm-cache\_git-remotes\git-github-com-jeroennoten-webpack-stream-git-patch-1-5e1462f4: undefined
+120 error git clone --template=C:\Users\clcgw\AppData\Roaming\npm-cache\_git-remotes\_templates --mirror git://github.com/jeroennoten/webpack-stream.git C:\Users\clcgw\AppData\Roaming\npm-cache\_git-remotes\git-github-com-jeroennoten-webpack-stream-git-patch-1-5e1462f4: undefined
+121 silly tryHTTPS attempting to clone git+https://github.com/jeroennoten/webpack-stream.git#patch-1
+122 silly tryClone cloning jeroennoten/webpack-stream#patch-1 via git+https://github.com/jeroennoten/webpack-stream.git#patch-1
+123 verbose tryClone git-https-github-com-jeroennoten-webpack-stream-git-patch-1-60be6dae not in flight; caching
+124 verbose correctMkdir C:\Users\clcgw\AppData\Roaming\npm-cache\_git-remotes correctMkdir not in flight; initializing
+125 warn addRemoteGit Error: not found: git
+125 warn addRemoteGit     at getNotFoundError (C:\nodejs\node_modules\npm\node_modules\which\which.js:14:12)
+125 warn addRemoteGit     at F (C:\nodejs\node_modules\npm\node_modules\which\which.js:69:19)
+125 warn addRemoteGit     at E (C:\nodejs\node_modules\npm\node_modules\which\which.js:81:29)
+125 warn addRemoteGit     at C:\nodejs\node_modules\npm\node_modules\which\which.js:90:16
+125 warn addRemoteGit     at C:\nodejs\node_modules\npm\node_modules\which\node_modules\isexe\index.js:44:5
+125 warn addRemoteGit     at C:\nodejs\node_modules\npm\node_modules\which\node_modules\isexe\windows.js:29:5
+125 warn addRemoteGit     at FSReqWrap.oncomplete (fs.js:123:15)
+125 warn addRemoteGit  jeroennoten/webpack-stream#patch-1 resetting remote C:\Users\clcgw\AppData\Roaming\npm-cache\_git-remotes\git-https-github-com-jeroennoten-webpack-stream-git-patch-1-60be6dae because of error: { Error: not found: git
+125 warn addRemoteGit     at getNotFoundError (C:\nodejs\node_modules\npm\node_modules\which\which.js:14:12)
+125 warn addRemoteGit     at F (C:\nodejs\node_modules\npm\node_modules\which\which.js:69:19)
+125 warn addRemoteGit     at E (C:\nodejs\node_modules\npm\node_modules\which\which.js:81:29)
+125 warn addRemoteGit     at C:\nodejs\node_modules\npm\node_modules\which\which.js:90:16
+125 warn addRemoteGit     at C:\nodejs\node_modules\npm\node_modules\which\node_modules\isexe\index.js:44:5
+125 warn addRemoteGit     at C:\nodejs\node_modules\npm\node_modules\which\node_modules\isexe\windows.js:29:5
+125 warn addRemoteGit     at FSReqWrap.oncomplete (fs.js:123:15) code: 'ENOGIT' }
+126 info resetRemote resetting C:\Users\clcgw\AppData\Roaming\npm-cache\_git-remotes\git-https-github-com-jeroennoten-webpack-stream-git-patch-1-60be6dae for jeroennoten/webpack-stream#patch-1
+127 silly gentlyRm C:\Users\clcgw\AppData\Roaming\npm-cache\_git-remotes\git-https-github-com-jeroennoten-webpack-stream-git-patch-1-60be6dae is being purged
+128 verbose gentlyRm don't care about contents; nuking C:\Users\clcgw\AppData\Roaming\npm-cache\_git-remotes\git-https-github-com-jeroennoten-webpack-stream-git-patch-1-60be6dae
+129 silly vacuum-fs purging C:\Users\clcgw\AppData\Roaming\npm-cache\_git-remotes\git-https-github-com-jeroennoten-webpack-stream-git-patch-1-60be6dae
+130 silly vacuum-fs quitting because other entries in C:\Users\clcgw\AppData\Roaming\npm-cache\_git-remotes
+131 error git clone --template=C:\Users\clcgw\AppData\Roaming\npm-cache\_git-remotes\_templates --mirror https://github.com/jeroennoten/webpack-stream.git C:\Users\clcgw\AppData\Roaming\npm-cache\_git-remotes\git-https-github-com-jeroennoten-webpack-stream-git-patch-1-60be6dae: undefined
+131 error git clone --template=C:\Users\clcgw\AppData\Roaming\npm-cache\_git-remotes\_templates --mirror https://github.com/jeroennoten/webpack-stream.git C:\Users\clcgw\AppData\Roaming\npm-cache\_git-remotes\git-https-github-com-jeroennoten-webpack-stream-git-patch-1-60be6dae: undefined
+132 silly trySSH attempting to clone git@github.com:jeroennoten/webpack-stream.git#patch-1
+133 silly tryClone cloning jeroennoten/webpack-stream#patch-1 via git@github.com:jeroennoten/webpack-stream.git#patch-1
+134 verbose tryClone git-github-com-jeroennoten-webpack-stream-git-patch-1-b24e730a not in flight; caching
+135 verbose correctMkdir C:\Users\clcgw\AppData\Roaming\npm-cache\_git-remotes correctMkdir not in flight; initializing
+136 warn addRemoteGit Error: not found: git
+136 warn addRemoteGit     at getNotFoundError (C:\nodejs\node_modules\npm\node_modules\which\which.js:14:12)
+136 warn addRemoteGit     at F (C:\nodejs\node_modules\npm\node_modules\which\which.js:69:19)
+136 warn addRemoteGit     at E (C:\nodejs\node_modules\npm\node_modules\which\which.js:81:29)
+136 warn addRemoteGit     at C:\nodejs\node_modules\npm\node_modules\which\which.js:90:16
+136 warn addRemoteGit     at C:\nodejs\node_modules\npm\node_modules\which\node_modules\isexe\index.js:44:5
+136 warn addRemoteGit     at C:\nodejs\node_modules\npm\node_modules\which\node_modules\isexe\windows.js:29:5
+136 warn addRemoteGit     at FSReqWrap.oncomplete (fs.js:123:15)
+136 warn addRemoteGit  jeroennoten/webpack-stream#patch-1 resetting remote C:\Users\clcgw\AppData\Roaming\npm-cache\_git-remotes\git-github-com-jeroennoten-webpack-stream-git-patch-1-b24e730a because of error: { Error: not found: git
+136 warn addRemoteGit     at getNotFoundError (C:\nodejs\node_modules\npm\node_modules\which\which.js:14:12)
+136 warn addRemoteGit     at F (C:\nodejs\node_modules\npm\node_modules\which\which.js:69:19)
+136 warn addRemoteGit     at E (C:\nodejs\node_modules\npm\node_modules\which\which.js:81:29)
+136 warn addRemoteGit     at C:\nodejs\node_modules\npm\node_modules\which\which.js:90:16
+136 warn addRemoteGit     at C:\nodejs\node_modules\npm\node_modules\which\node_modules\isexe\index.js:44:5
+136 warn addRemoteGit     at C:\nodejs\node_modules\npm\node_modules\which\node_modules\isexe\windows.js:29:5
+136 warn addRemoteGit     at FSReqWrap.oncomplete (fs.js:123:15) code: 'ENOGIT' }
+137 info resetRemote resetting C:\Users\clcgw\AppData\Roaming\npm-cache\_git-remotes\git-github-com-jeroennoten-webpack-stream-git-patch-1-b24e730a for jeroennoten/webpack-stream#patch-1
+138 silly gentlyRm C:\Users\clcgw\AppData\Roaming\npm-cache\_git-remotes\git-github-com-jeroennoten-webpack-stream-git-patch-1-b24e730a is being purged
+139 verbose gentlyRm don't care about contents; nuking C:\Users\clcgw\AppData\Roaming\npm-cache\_git-remotes\git-github-com-jeroennoten-webpack-stream-git-patch-1-b24e730a
+140 silly vacuum-fs purging C:\Users\clcgw\AppData\Roaming\npm-cache\_git-remotes\git-github-com-jeroennoten-webpack-stream-git-patch-1-b24e730a
+141 silly vacuum-fs quitting because other entries in C:\Users\clcgw\AppData\Roaming\npm-cache\_git-remotes
+142 error git clone --template=C:\Users\clcgw\AppData\Roaming\npm-cache\_git-remotes\_templates --mirror git@github.com:jeroennoten/webpack-stream.git C:\Users\clcgw\AppData\Roaming\npm-cache\_git-remotes\git-github-com-jeroennoten-webpack-stream-git-patch-1-b24e730a: undefined
+142 error git clone --template=C:\Users\clcgw\AppData\Roaming\npm-cache\_git-remotes\_templates --mirror git@github.com:jeroennoten/webpack-stream.git C:\Users\clcgw\AppData\Roaming\npm-cache\_git-remotes\git-github-com-jeroennoten-webpack-stream-git-patch-1-b24e730a: undefined
+143 silly fetchPackageMetaData Error: not found: git
+143 silly fetchPackageMetaData     at getNotFoundError (C:\nodejs\node_modules\npm\node_modules\which\which.js:14:12)
+143 silly fetchPackageMetaData     at F (C:\nodejs\node_modules\npm\node_modules\which\which.js:69:19)
+143 silly fetchPackageMetaData     at E (C:\nodejs\node_modules\npm\node_modules\which\which.js:81:29)
+143 silly fetchPackageMetaData     at C:\nodejs\node_modules\npm\node_modules\which\which.js:90:16
+143 silly fetchPackageMetaData     at C:\nodejs\node_modules\npm\node_modules\which\node_modules\isexe\index.js:44:5
+143 silly fetchPackageMetaData     at C:\nodejs\node_modules\npm\node_modules\which\node_modules\isexe\windows.js:29:5
+143 silly fetchPackageMetaData     at FSReqWrap.oncomplete (fs.js:123:15)
+143 silly fetchPackageMetaData  error for webpack-stream@github:jeroennoten/webpack-stream#patch-1 { Error: not found: git
+143 silly fetchPackageMetaData     at getNotFoundError (C:\nodejs\node_modules\npm\node_modules\which\which.js:14:12)
+143 silly fetchPackageMetaData     at F (C:\nodejs\node_modules\npm\node_modules\which\which.js:69:19)
+143 silly fetchPackageMetaData     at E (C:\nodejs\node_modules\npm\node_modules\which\which.js:81:29)
+143 silly fetchPackageMetaData     at C:\nodejs\node_modules\npm\node_modules\which\which.js:90:16
+143 silly fetchPackageMetaData     at C:\nodejs\node_modules\npm\node_modules\which\node_modules\isexe\index.js:44:5
+143 silly fetchPackageMetaData     at C:\nodejs\node_modules\npm\node_modules\which\node_modules\isexe\windows.js:29:5
+143 silly fetchPackageMetaData     at FSReqWrap.oncomplete (fs.js:123:15) code: 'ENOGIT' }
+144 http 304 https://registry.npmjs.org/lodash
+145 verbose headers { date: 'Sat, 12 Nov 2016 12:06:43 GMT',
+145 verbose headers   via: '1.1 varnish',
+145 verbose headers   'cache-control': 'max-age=300',
+145 verbose headers   etag: '"74ZCVBVX3UYT3M3SXMFNFI0NL"',
+145 verbose headers   age: '142',
+145 verbose headers   connection: 'keep-alive',
+145 verbose headers   'x-served-by': 'cache-gru7127-GRU',
+145 verbose headers   'x-cache': 'HIT',
+145 verbose headers   'x-cache-hits': '5',
+145 verbose headers   'x-timer': 'S1478952403.796609,VS0,VE0',
+145 verbose headers   vary: 'Accept-Encoding' }
+146 silly get cb [ 304,
+146 silly get   { date: 'Sat, 12 Nov 2016 12:06:43 GMT',
+146 silly get     via: '1.1 varnish',
+146 silly get     'cache-control': 'max-age=300',
+146 silly get     etag: '"74ZCVBVX3UYT3M3SXMFNFI0NL"',
+146 silly get     age: '142',
+146 silly get     connection: 'keep-alive',
+146 silly get     'x-served-by': 'cache-gru7127-GRU',
+146 silly get     'x-cache': 'HIT',
+146 silly get     'x-cache-hits': '5',
+146 silly get     'x-timer': 'S1478952403.796609,VS0,VE0',
+146 silly get     vary: 'Accept-Encoding' } ]
+147 verbose etag https://registry.npmjs.org/lodash from cache
+148 verbose get saving lodash to C:\Users\clcgw\AppData\Roaming\npm-cache\registry.npmjs.org\lodash\.cache.json
+149 verbose correctMkdir C:\Users\clcgw\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+150 http 304 https://registry.npmjs.org/webpack
+151 verbose headers { date: 'Sat, 12 Nov 2016 12:06:43 GMT',
+151 verbose headers   via: '1.1 varnish',
+151 verbose headers   'cache-control': 'max-age=300',
+151 verbose headers   etag: '"E94M6NW5MBZ921AGWAKOMMCZZ"',
+151 verbose headers   age: '198',
+151 verbose headers   connection: 'keep-alive',
+151 verbose headers   'x-served-by': 'cache-gru7124-GRU',
+151 verbose headers   'x-cache': 'HIT',
+151 verbose headers   'x-cache-hits': '2',
+151 verbose headers   'x-timer': 'S1478952403.796031,VS0,VE0',
+151 verbose headers   vary: 'Accept-Encoding' }
+152 silly get cb [ 304,
+152 silly get   { date: 'Sat, 12 Nov 2016 12:06:43 GMT',
+152 silly get     via: '1.1 varnish',
+152 silly get     'cache-control': 'max-age=300',
+152 silly get     etag: '"E94M6NW5MBZ921AGWAKOMMCZZ"',
+152 silly get     age: '198',
+152 silly get     connection: 'keep-alive',
+152 silly get     'x-served-by': 'cache-gru7124-GRU',
+152 silly get     'x-cache': 'HIT',
+152 silly get     'x-cache-hits': '2',
+152 silly get     'x-timer': 'S1478952403.796031,VS0,VE0',
+152 silly get     vary: 'Accept-Encoding' } ]
+153 verbose etag https://registry.npmjs.org/webpack from cache
+154 verbose get saving webpack to C:\Users\clcgw\AppData\Roaming\npm-cache\registry.npmjs.org\webpack\.cache.json
+155 verbose correctMkdir C:\Users\clcgw\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+156 silly resolveWithNewModule lodash@4.16.6 checking installable status
+157 silly cache add args [ 'lodash@^4.15.0', null ]
+158 verbose cache add spec lodash@^4.15.0
+159 silly cache add parsed spec Result {
+159 silly cache add   raw: 'lodash@^4.15.0',
+159 silly cache add   scope: null,
+159 silly cache add   escapedName: 'lodash',
+159 silly cache add   name: 'lodash',
+159 silly cache add   rawSpec: '^4.15.0',
+159 silly cache add   spec: '>=4.15.0 <5.0.0',
+159 silly cache add   type: 'range' }
+160 silly addNamed lodash@>=4.15.0 <5.0.0
+161 verbose addNamed ">=4.15.0 <5.0.0" is a valid semver range for lodash
+162 silly addNameRange { name: 'lodash', range: '>=4.15.0 <5.0.0', hasData: false }
+163 silly mapToRegistry name lodash
+164 silly mapToRegistry using default registry
+165 silly mapToRegistry registry https://registry.npmjs.org/
+166 silly mapToRegistry data Result {
+166 silly mapToRegistry   raw: 'lodash',
+166 silly mapToRegistry   scope: null,
+166 silly mapToRegistry   escapedName: 'lodash',
+166 silly mapToRegistry   name: 'lodash',
+166 silly mapToRegistry   rawSpec: '',
+166 silly mapToRegistry   spec: 'latest',
+166 silly mapToRegistry   type: 'tag' }
+167 silly mapToRegistry uri https://registry.npmjs.org/lodash
+168 verbose addNameRange registry:https://registry.npmjs.org/lodash not in flight; fetching
+169 silly resolveWithNewModule webpack@2.1.0-beta.22 checking installable status
+170 silly cache add args [ 'webpack@2.1.0-beta.15 - 2.1.0-beta.22', null ]
+171 verbose cache add spec webpack@2.1.0-beta.15 - 2.1.0-beta.22
+172 silly cache add parsed spec Result {
+172 silly cache add   raw: 'webpack@2.1.0-beta.15 - 2.1.0-beta.22',
+172 silly cache add   scope: null,
+172 silly cache add   escapedName: 'webpack',
+172 silly cache add   name: 'webpack',
+172 silly cache add   rawSpec: '2.1.0-beta.15 - 2.1.0-beta.22',
+172 silly cache add   spec: '>=2.1.0-beta.15 <=2.1.0-beta.22',
+172 silly cache add   type: 'range' }
+173 silly addNamed webpack@>=2.1.0-beta.15 <=2.1.0-beta.22
+174 verbose addNamed ">=2.1.0-beta.15 <=2.1.0-beta.22" is a valid semver range for webpack
+175 silly addNameRange { name: 'webpack',
+175 silly addNameRange   range: '>=2.1.0-beta.15 <=2.1.0-beta.22',
+175 silly addNameRange   hasData: false }
+176 silly mapToRegistry name webpack
+177 silly mapToRegistry using default registry
+178 silly mapToRegistry registry https://registry.npmjs.org/
+179 silly mapToRegistry data Result {
+179 silly mapToRegistry   raw: 'webpack',
+179 silly mapToRegistry   scope: null,
+179 silly mapToRegistry   escapedName: 'webpack',
+179 silly mapToRegistry   name: 'webpack',
+179 silly mapToRegistry   rawSpec: '',
+179 silly mapToRegistry   spec: 'latest',
+179 silly mapToRegistry   type: 'tag' }
+180 silly mapToRegistry uri https://registry.npmjs.org/webpack
+181 verbose addNameRange registry:https://registry.npmjs.org/webpack not in flight; fetching
+182 verbose get https://registry.npmjs.org/lodash not expired, no request
+183 silly addNameRange number 2 { name: 'lodash', range: '>=4.15.0 <5.0.0', hasData: true }
+184 silly addNameRange versions [ 'lodash',
+184 silly addNameRange   [ '0.1.0',
+184 silly addNameRange     '0.2.0',
+184 silly addNameRange     '0.2.1',
+184 silly addNameRange     '0.2.2',
+184 silly addNameRange     '0.3.0',
+184 silly addNameRange     '0.3.1',
+184 silly addNameRange     '0.3.2',
+184 silly addNameRange     '0.4.0',
+184 silly addNameRange     '0.4.1',
+184 silly addNameRange     '0.4.2',
+184 silly addNameRange     '0.5.0-rc.1',
+184 silly addNameRange     '0.5.0',
+184 silly addNameRange     '0.5.1',
+184 silly addNameRange     '0.5.2',
+184 silly addNameRange     '0.6.0',
+184 silly addNameRange     '0.6.1',
+184 silly addNameRange     '0.7.0',
+184 silly addNameRange     '0.8.0',
+184 silly addNameRange     '0.8.1',
+184 silly addNameRange     '0.8.2',
+184 silly addNameRange     '0.9.0',
+184 silly addNameRange     '0.9.1',
+184 silly addNameRange     '0.9.2',
+184 silly addNameRange     '0.10.0',
+184 silly addNameRange     '1.0.0-rc.1',
+184 silly addNameRange     '1.0.0-rc.2',
+184 silly addNameRange     '1.0.0-rc.3',
+184 silly addNameRange     '1.0.0',
+184 silly addNameRange     '1.0.1',
+184 silly addNameRange     '1.1.0',
+184 silly addNameRange     '1.1.1',
+184 silly addNameRange     '1.2.0',
+184 silly addNameRange     '1.2.1',
+184 silly addNameRange     '1.3.0',
+184 silly addNameRange     '1.3.1',
+184 silly addNameRange     '2.0.0',
+184 silly addNameRange     '2.1.0',
+184 silly addNameRange     '2.2.0',
+184 silly addNameRange     '2.2.1',
+184 silly addNameRange     '2.3.0',
+184 silly addNameRange     '2.4.0',
+184 silly addNameRange     '2.4.1',
+184 silly addNameRange     '3.0.0',
+184 silly addNameRange     '3.0.1',
+184 silly addNameRange     '3.1.0',
+184 silly addNameRange     '3.2.0',
+184 silly addNameRange     '3.3.0',
+184 silly addNameRange     '3.3.1',
+184 silly addNameRange     '3.4.0',
+184 silly addNameRange     '3.5.0',
+184 silly addNameRange     '3.6.0',
+184 silly addNameRange     '1.0.2',
+184 silly addNameRange     '3.7.0',
+184 silly addNameRange     '2.4.2',
+184 silly addNameRange     '3.8.0',
+184 silly addNameRange     '3.9.0',
+184 silly addNameRange     '3.9.1',
+184 silly addNameRange     '3.9.2',
+184 silly addNameRange     '3.9.3',
+184 silly addNameRange     '3.10.0',
+184 silly addNameRange     '3.10.1',
+184 silly addNameRange     '4.0.0',
+184 silly addNameRange     '4.0.1',
+184 silly addNameRange     '4.1.0',
+184 silly addNameRange     '4.2.0',
+184 silly addNameRange     '4.2.1',
+184 silly addNameRange     '4.3.0',
+184 silly addNameRange     '4.4.0',
+184 silly addNameRange     '4.5.0',
+184 silly addNameRange     '4.5.1',
+184 silly addNameRange     '4.6.0',
+184 silly addNameRange     '4.6.1',
+184 silly addNameRange     '4.7.0',
+184 silly addNameRange     '4.8.0',
+184 silly addNameRange     '4.8.1',
+184 silly addNameRange     '4.8.2',
+184 silly addNameRange     '4.9.0',
+184 silly addNameRange     '4.10.0',
+184 silly addNameRange     '4.11.0',
+184 silly addNameRange     '4.11.1',
+184 silly addNameRange     '4.11.2',
+184 silly addNameRange     '4.12.0',
+184 silly addNameRange     '4.13.0',
+184 silly addNameRange     '4.13.1',
+184 silly addNameRange     '4.14.0',
+184 silly addNameRange     '4.14.1',
+184 silly addNameRange     '4.14.2',
+184 silly addNameRange     '4.15.0',
+184 silly addNameRange     '4.16.0',
+184 silly addNameRange     '4.16.1',
+184 silly addNameRange     '4.16.2',
+184 silly addNameRange     '4.16.3',
+184 silly addNameRange     '4.16.4',
+184 silly addNameRange     '4.16.5',
+184 silly addNameRange     '4.16.6' ] ]
+185 silly addNamed lodash@4.16.6
+186 verbose addNamed "4.16.6" is a plain semver version for lodash
+187 verbose get https://registry.npmjs.org/webpack not expired, no request
+188 silly addNameRange number 2 { name: 'webpack',
+188 silly addNameRange   range: '>=2.1.0-beta.15 <=2.1.0-beta.22',
+188 silly addNameRange   hasData: true }
+189 silly addNameRange versions [ 'webpack',
+189 silly addNameRange   [ '0.1.0',
+189 silly addNameRange     '0.1.1',
+189 silly addNameRange     '0.1.2',
+189 silly addNameRange     '0.1.3',
+189 silly addNameRange     '0.1.4',
+189 silly addNameRange     '0.1.5',
+189 silly addNameRange     '0.1.6',
+189 silly addNameRange     '0.2.0',
+189 silly addNameRange     '0.2.1',
+189 silly addNameRange     '0.2.2',
+189 silly addNameRange     '0.2.3',
+189 silly addNameRange     '0.2.4',
+189 silly addNameRange     '0.2.6',
+189 silly addNameRange     '0.2.7',
+189 silly addNameRange     '0.2.8',
+189 silly addNameRange     '0.3.0',
+189 silly addNameRange     '0.3.1',
+189 silly addNameRange     '0.3.2',
+189 silly addNameRange     '0.3.3',
+189 silly addNameRange     '0.3.4',
+189 silly addNameRange     '0.3.6',
+189 silly addNameRange     '0.3.7',
+189 silly addNameRange     '0.3.8',
+189 silly addNameRange     '0.3.9',
+189 silly addNameRange     '0.3.10',
+189 silly addNameRange     '0.3.11',
+189 silly addNameRange     '0.3.12',
+189 silly addNameRange     '0.3.13',
+189 silly addNameRange     '0.3.14',
+189 silly addNameRange     '0.3.15',
+189 silly addNameRange     '0.3.16',
+189 silly addNameRange     '0.3.17',
+189 silly addNameRange     '0.3.18',
+189 silly addNameRange     '0.3.19',
+189 silly addNameRange     '0.3.20',
+189 silly addNameRange     '0.4.0',
+189 silly addNameRange     '0.4.1',
+189 silly addNameRange     '0.4.2',
+189 silly addNameRange     '0.4.3',
+189 silly addNameRange     '0.4.4',
+189 silly addNameRange     '0.4.5',
+189 silly addNameRange     '0.4.6',
+189 silly addNameRange     '0.4.7',
+189 silly addNameRange     '0.4.8',
+189 silly addNameRange     '0.4.9',
+189 silly addNameRange     '0.4.10',
+189 silly addNameRange     '0.4.11',
+189 silly addNameRange     '0.4.12',
+189 silly addNameRange     '0.4.13',
+189 silly addNameRange     '0.4.14',
+189 silly addNameRange     '0.4.15',
+189 silly addNameRange     '0.4.16',
+189 silly addNameRange     '0.4.17',
+189 silly addNameRange     '0.4.18',
+189 silly addNameRange     '0.4.19',
+189 silly addNameRange     '0.4.20',
+189 silly addNameRange     '0.4.21',
+189 silly addNameRange     '0.4.23',
+189 silly addNameRange     '0.4.24',
+189 silly addNameRange     '0.4.25',
+189 silly addNameRange     '0.5.0',
+189 silly addNameRange     '0.5.1',
+189 silly addNameRange     '0.5.2',
+189 silly addNameRange     '0.5.3',
+189 silly addNameRange     '0.5.4',
+189 silly addNameRange     '0.5.5',
+189 silly addNameRange     '0.5.6',
+189 silly addNameRange     '0.5.7',
+189 silly addNameRange     '0.5.8',
+189 silly addNameRange     '0.5.10',
+189 silly addNameRange     '0.6.0',
+189 silly addNameRange     '0.6.1',
+189 silly addNameRange     '0.6.2',
+189 silly addNameRange     '0.7.0-beta',
+189 silly addNameRange     '0.7.0-beta2',
+189 silly addNameRange     '0.7.0-beta3',
+189 silly addNameRange     '0.7.0-beta4',
+189 silly addNameRange     '0.7.0-beta5',
+189 silly addNameRange     '0.7.0-beta6',
+189 silly addNameRange     '0.7.0-beta7',
+189 silly addNameRange     '0.7.0-beta8',
+189 silly addNameRange     '0.7.0',
+189 silly addNameRange     '0.7.1',
+189 silly addNameRange     '0.7.2',
+189 silly addNameRange     '0.7.3',
+189 silly addNameRange     '0.7.4',
+189 silly addNameRange     '0.7.5',
+189 silly addNameRange     '0.7.6',
+189 silly addNameRange     '0.7.7',
+189 silly addNameRange     '0.7.8',
+189 silly addNameRange     '0.7.9',
+189 silly addNameRange     '0.7.11',
+189 silly addNameRange     '0.7.12',
+189 silly addNameRange     '0.7.13',
+189 silly addNameRange     '0.7.14',
+189 silly addNameRange     '0.7.15',
+189 silly addNameRange     '0.7.16',
+189 silly addNameRange     '0.7.17',
+189 silly addNameRange     '0.8.0-beta1',
+189 silly addNameRange     '0.8.0-beta2',
+189 silly addNameRange     ... 323 more items ] ]
+190 silly addNamed webpack@2.1.0-beta.22
+191 verbose addNamed "2.1.0-beta.22" is a plain semver version for webpack
+192 silly cache afterAdd lodash@4.16.6
+193 verbose afterAdd C:\Users\clcgw\AppData\Roaming\npm-cache\lodash\4.16.6\package\package.json not in flight; writing
+194 verbose correctMkdir C:\Users\clcgw\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+195 silly cache afterAdd webpack@2.1.0-beta.22
+196 verbose afterAdd C:\Users\clcgw\AppData\Roaming\npm-cache\webpack\2.1.0-beta.22\package\package.json not in flight; writing
+197 verbose correctMkdir C:\Users\clcgw\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+198 verbose afterAdd C:\Users\clcgw\AppData\Roaming\npm-cache\webpack\2.1.0-beta.22\package\package.json written
+199 verbose afterAdd C:\Users\clcgw\AppData\Roaming\npm-cache\lodash\4.16.6\package\package.json written
+200 http 304 https://registry.npmjs.org/buble-loader
+201 verbose headers { date: 'Sat, 12 Nov 2016 12:06:43 GMT',
+201 verbose headers   via: '1.1 varnish',
+201 verbose headers   'cache-control': 'max-age=300',
+201 verbose headers   etag: '"95FI517V6LVOPY4X316CY6I4A"',
+201 verbose headers   age: '0',
+201 verbose headers   connection: 'keep-alive',
+201 verbose headers   'x-served-by': 'cache-gru7120-GRU',
+201 verbose headers   'x-cache': 'MISS',
+201 verbose headers   'x-cache-hits': '0',
+201 verbose headers   'x-timer': 'S1478952403.504551,VS0,VE608',
+201 verbose headers   vary: 'Accept-Encoding' }
+202 silly get cb [ 304,
+202 silly get   { date: 'Sat, 12 Nov 2016 12:06:43 GMT',
+202 silly get     via: '1.1 varnish',
+202 silly get     'cache-control': 'max-age=300',
+202 silly get     etag: '"95FI517V6LVOPY4X316CY6I4A"',
+202 silly get     age: '0',
+202 silly get     connection: 'keep-alive',
+202 silly get     'x-served-by': 'cache-gru7120-GRU',
+202 silly get     'x-cache': 'MISS',
+202 silly get     'x-cache-hits': '0',
+202 silly get     'x-timer': 'S1478952403.504551,VS0,VE608',
+202 silly get     vary: 'Accept-Encoding' } ]
+203 verbose etag https://registry.npmjs.org/buble-loader from cache
+204 verbose get saving buble-loader to C:\Users\clcgw\AppData\Roaming\npm-cache\registry.npmjs.org\buble-loader\.cache.json
+205 verbose correctMkdir C:\Users\clcgw\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+206 silly resolveWithNewModule buble-loader@0.2.2 checking installable status
+207 silly cache add args [ 'buble-loader@^0.2.2', null ]
+208 verbose cache add spec buble-loader@^0.2.2
+209 silly cache add parsed spec Result {
+209 silly cache add   raw: 'buble-loader@^0.2.2',
+209 silly cache add   scope: null,
+209 silly cache add   escapedName: 'buble-loader',
+209 silly cache add   name: 'buble-loader',
+209 silly cache add   rawSpec: '^0.2.2',
+209 silly cache add   spec: '>=0.2.2 <0.3.0',
+209 silly cache add   type: 'range' }
+210 silly addNamed buble-loader@>=0.2.2 <0.3.0
+211 verbose addNamed ">=0.2.2 <0.3.0" is a valid semver range for buble-loader
+212 silly addNameRange { name: 'buble-loader', range: '>=0.2.2 <0.3.0', hasData: false }
+213 silly mapToRegistry name buble-loader
+214 silly mapToRegistry using default registry
+215 silly mapToRegistry registry https://registry.npmjs.org/
+216 silly mapToRegistry data Result {
+216 silly mapToRegistry   raw: 'buble-loader',
+216 silly mapToRegistry   scope: null,
+216 silly mapToRegistry   escapedName: 'buble-loader',
+216 silly mapToRegistry   name: 'buble-loader',
+216 silly mapToRegistry   rawSpec: '',
+216 silly mapToRegistry   spec: 'latest',
+216 silly mapToRegistry   type: 'tag' }
+217 silly mapToRegistry uri https://registry.npmjs.org/buble-loader
+218 verbose addNameRange registry:https://registry.npmjs.org/buble-loader not in flight; fetching
+219 verbose get https://registry.npmjs.org/buble-loader not expired, no request
+220 silly addNameRange number 2 { name: 'buble-loader', range: '>=0.2.2 <0.3.0', hasData: true }
+221 silly addNameRange versions [ 'buble-loader',
+221 silly addNameRange   [ '0.1.0', '0.2.0', '0.2.1', '0.2.2', '0.3.0', '0.3.1', '0.3.2' ] ]
+222 silly addNamed buble-loader@0.2.2
+223 verbose addNamed "0.2.2" is a plain semver version for buble-loader
+224 silly cache afterAdd buble-loader@0.2.2
+225 verbose afterAdd C:\Users\clcgw\AppData\Roaming\npm-cache\buble-loader\0.2.2\package\package.json not in flight; writing
+226 verbose correctMkdir C:\Users\clcgw\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+227 verbose afterAdd C:\Users\clcgw\AppData\Roaming\npm-cache\buble-loader\0.2.2\package\package.json written
+228 http 304 https://registry.npmjs.org/buble
+229 verbose headers { date: 'Sat, 12 Nov 2016 12:06:43 GMT',
+229 verbose headers   via: '1.1 varnish',
+229 verbose headers   'cache-control': 'max-age=300',
+229 verbose headers   etag: '"DG72AB6DH42CYET9L8KHVEGVW"',
+229 verbose headers   age: '0',
+229 verbose headers   connection: 'keep-alive',
+229 verbose headers   'x-served-by': 'cache-gru7124-GRU',
+229 verbose headers   'x-cache': 'MISS',
+229 verbose headers   'x-cache-hits': '0',
+229 verbose headers   'x-timer': 'S1478952403.795993,VS0,VE856',
+229 verbose headers   vary: 'Accept-Encoding' }
+230 silly get cb [ 304,
+230 silly get   { date: 'Sat, 12 Nov 2016 12:06:43 GMT',
+230 silly get     via: '1.1 varnish',
+230 silly get     'cache-control': 'max-age=300',
+230 silly get     etag: '"DG72AB6DH42CYET9L8KHVEGVW"',
+230 silly get     age: '0',
+230 silly get     connection: 'keep-alive',
+230 silly get     'x-served-by': 'cache-gru7124-GRU',
+230 silly get     'x-cache': 'MISS',
+230 silly get     'x-cache-hits': '0',
+230 silly get     'x-timer': 'S1478952403.795993,VS0,VE856',
+230 silly get     vary: 'Accept-Encoding' } ]
+231 verbose etag https://registry.npmjs.org/buble from cache
+232 verbose get saving buble to C:\Users\clcgw\AppData\Roaming\npm-cache\registry.npmjs.org\buble\.cache.json
+233 verbose correctMkdir C:\Users\clcgw\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+234 silly resolveWithNewModule buble@0.12.5 checking installable status
+235 silly cache add args [ 'buble@^0.12.3', null ]
+236 verbose cache add spec buble@^0.12.3
+237 silly cache add parsed spec Result {
+237 silly cache add   raw: 'buble@^0.12.3',
+237 silly cache add   scope: null,
+237 silly cache add   escapedName: 'buble',
+237 silly cache add   name: 'buble',
+237 silly cache add   rawSpec: '^0.12.3',
+237 silly cache add   spec: '>=0.12.3 <0.13.0',
+237 silly cache add   type: 'range' }
+238 silly addNamed buble@>=0.12.3 <0.13.0
+239 verbose addNamed ">=0.12.3 <0.13.0" is a valid semver range for buble
+240 silly addNameRange { name: 'buble', range: '>=0.12.3 <0.13.0', hasData: false }
+241 silly mapToRegistry name buble
+242 silly mapToRegistry using default registry
+243 silly mapToRegistry registry https://registry.npmjs.org/
+244 silly mapToRegistry data Result {
+244 silly mapToRegistry   raw: 'buble',
+244 silly mapToRegistry   scope: null,
+244 silly mapToRegistry   escapedName: 'buble',
+244 silly mapToRegistry   name: 'buble',
+244 silly mapToRegistry   rawSpec: '',
+244 silly mapToRegistry   spec: 'latest',
+244 silly mapToRegistry   type: 'tag' }
+245 silly mapToRegistry uri https://registry.npmjs.org/buble
+246 verbose addNameRange registry:https://registry.npmjs.org/buble not in flight; fetching
+247 verbose get https://registry.npmjs.org/buble not expired, no request
+248 silly addNameRange number 2 { name: 'buble', range: '>=0.12.3 <0.13.0', hasData: true }
+249 silly addNameRange versions [ 'buble',
+249 silly addNameRange   [ '0.1.0',
+249 silly addNameRange     '0.2.0',
+249 silly addNameRange     '0.2.1',
+249 silly addNameRange     '0.2.2',
+249 silly addNameRange     '0.3.0',
+249 silly addNameRange     '0.3.1',
+249 silly addNameRange     '0.3.2',
+249 silly addNameRange     '0.3.3',
+249 silly addNameRange     '0.3.4',
+249 silly addNameRange     '0.4.0',
+249 silly addNameRange     '0.4.1',
+249 silly addNameRange     '0.4.2',
+249 silly addNameRange     '0.4.3',
+249 silly addNameRange     '0.4.4',
+249 silly addNameRange     '0.4.5',
+249 silly addNameRange     '0.4.6',
+249 silly addNameRange     '0.4.7',
+249 silly addNameRange     '0.4.8',
+249 silly addNameRange     '0.4.9',
+249 silly addNameRange     '0.4.10',
+249 silly addNameRange     '0.4.11',
+249 silly addNameRange     '0.4.12',
+249 silly addNameRange     '0.4.13',
+249 silly addNameRange     '0.4.14',
+249 silly addNameRange     '0.4.15',
+249 silly addNameRange     '0.4.16',
+249 silly addNameRange     '0.4.17',
+249 silly addNameRange     '0.4.18',
+249 silly addNameRange     '0.4.20',
+249 silly addNameRange     '0.4.21',
+249 silly addNameRange     '0.4.22',
+249 silly addNameRange     '0.4.23',
+249 silly addNameRange     '0.4.24',
+249 silly addNameRange     '0.5.0',
+249 silly addNameRange     '0.5.1',
+249 silly addNameRange     '0.5.2',
+249 silly addNameRange     '0.5.3',
+249 silly addNameRange     '0.5.4',
+249 silly addNameRange     '0.5.5',
+249 silly addNameRange     '0.5.6',
+249 silly addNameRange     '0.5.7',
+249 silly addNameRange     '0.5.8',
+249 silly addNameRange     '0.6.0',
+249 silly addNameRange     '0.6.1',
+249 silly addNameRange     '0.6.2',
+249 silly addNameRange     '0.6.3',
+249 silly addNameRange     '0.6.4',
+249 silly addNameRange     '0.6.5',
+249 silly addNameRange     '0.6.6',
+249 silly addNameRange     '0.6.7',
+249 silly addNameRange     '0.7.0',
+249 silly addNameRange     '0.7.1',
+249 silly addNameRange     '0.8.0',
+249 silly addNameRange     '0.8.1',
+249 silly addNameRange     '0.8.2',
+249 silly addNameRange     '0.8.3',
+249 silly addNameRange     '0.8.4',
+249 silly addNameRange     '0.8.5',
+249 silly addNameRange     '0.9.0',
+249 silly addNameRange     '0.9.1',
+249 silly addNameRange     '0.9.2',
+249 silly addNameRange     '0.9.3',
+249 silly addNameRange     '0.10.0',
+249 silly addNameRange     '0.10.1',
+249 silly addNameRange     '0.10.2',
+249 silly addNameRange     '0.10.3',
+249 silly addNameRange     '0.10.4',
+249 silly addNameRange     '0.10.5',
+249 silly addNameRange     '0.10.6',
+249 silly addNameRange     '0.10.7',
+249 silly addNameRange     '0.11.0',
+249 silly addNameRange     '0.11.1',
+249 silly addNameRange     '0.11.2',
+249 silly addNameRange     '0.11.3',
+249 silly addNameRange     '0.11.4',
+249 silly addNameRange     '0.11.5',
+249 silly addNameRange     '0.11.6',
+249 silly addNameRange     '0.12.0',
+249 silly addNameRange     '0.12.1',
+249 silly addNameRange     '0.12.2',
+249 silly addNameRange     '0.12.3',
+249 silly addNameRange     '0.12.4',
+249 silly addNameRange     '0.12.5',
+249 silly addNameRange     '0.13.0',
+249 silly addNameRange     '0.13.1',
+249 silly addNameRange     '0.13.2',
+249 silly addNameRange     '0.14.0',
+249 silly addNameRange     '0.14.1',
+249 silly addNameRange     '0.14.2' ] ]
+250 silly addNamed buble@0.12.5
+251 verbose addNamed "0.12.5" is a plain semver version for buble
+252 silly cache afterAdd buble@0.12.5
+253 verbose afterAdd C:\Users\clcgw\AppData\Roaming\npm-cache\buble\0.12.5\package\package.json not in flight; writing
+254 verbose correctMkdir C:\Users\clcgw\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+255 verbose afterAdd C:\Users\clcgw\AppData\Roaming\npm-cache\buble\0.12.5\package\package.json written
+256 silly rollbackFailedOptional Starting
+257 silly rollbackFailedOptional Finishing
+258 silly runTopLevelLifecycles Finishing
+259 silly install printInstalled
+260 verbose stack Error: not found: git
+260 verbose stack     at getNotFoundError (C:\nodejs\node_modules\npm\node_modules\which\which.js:14:12)
+260 verbose stack     at F (C:\nodejs\node_modules\npm\node_modules\which\which.js:69:19)
+260 verbose stack     at E (C:\nodejs\node_modules\npm\node_modules\which\which.js:81:29)
+260 verbose stack     at C:\nodejs\node_modules\npm\node_modules\which\which.js:90:16
+260 verbose stack     at C:\nodejs\node_modules\npm\node_modules\which\node_modules\isexe\index.js:44:5
+260 verbose stack     at C:\nodejs\node_modules\npm\node_modules\which\node_modules\isexe\windows.js:29:5
+260 verbose stack     at FSReqWrap.oncomplete (fs.js:123:15)
+261 verbose cwd C:\xampp\htdocs\tralharia
+262 error Windows_NT 10.0.14393
+263 error argv "C:\\nodejs\\node.exe" "C:\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "laravel-elixir-webpack-official" "--save-dev"
+264 error node v6.9.1
+265 error npm  v3.10.8
+266 error code ENOGIT
+267 error not found: git
+268 error Failed using git.
+268 error This is most likely not a problem with npm itself.
+268 error Please check if you have git installed and in your PATH.
+269 verbose exit [ 1, true ]
