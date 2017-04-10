@@ -12,5 +12,10 @@ class DatabaseSeeder extends Seeder
     public function run()
     {
         // $this->call(UsersTableSeeder::class);
+//        $this->call(CategoriaSeeder::class);
+//        $this->call(ObjetoSeeder::class);
+
+        // popula o banco com as seeds de marca e promoções vinculadas as marcas
+        $this->call(MarcaSeeder::class);
     }
 }

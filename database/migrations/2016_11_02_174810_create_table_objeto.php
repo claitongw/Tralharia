@@ -15,10 +15,10 @@ class CreateTableObjeto extends Migration
     {
         //
         Schema::create('objeto', function (Blueprint $table){
-            $table->increments('idobjeto');
-            $table->integer('idmarca')->unsigned()->nullable();
-            $table->integer('idpromocao')->unsigned()->nullable();
-            $table->integer('idcategoria')->unsigned()->nullable();
+            $table->increments('id');
+            $table->integer('marca_id')->unsigned();
+            $table->integer('promocao_id')->unsigned();
+            $table->integer('categoria_id')->unsigned();
             $table->string('nome');
             $table->string('serie');//29ª oktoberfest, 11º Planeta Atlantida
             $table->text('descricao', 300);
@@ -29,9 +29,9 @@ class CreateTableObjeto extends Migration
         });
 
         Schema::table('objeto', function($table) {
-            $table->foreign('idmarca')->references('idmarca')->on('marca');
-            $table->foreign('idpromocao')->references('idpromocao')->on('promocao');
-            $table->foreign('idcategoria')->references('idcategoria')->on('categoria');
+            $table->foreign('marca_id')->references('id')->on('marca');
+            $table->foreign('promocao_id')->references('id')->on('promocao');
+            $table->foreign('categoria_id')->references('id')->on('categoria');
         });
     }
 

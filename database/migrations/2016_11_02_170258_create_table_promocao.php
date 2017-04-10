@@ -15,17 +15,14 @@ class CreateTablePromocao extends Migration
     {
         //
         Schema::create('promocao', function (Blueprint $table){
-            $table->increments('idpromocao');
-            $table->integer('idmarca')->unsigned()->nullable();
+            $table->increments('id');
+            $table->integer('marca_id')->unsigned();
+            $table->foreign('marca_id')->references('id')->on('marca');
             $table->string('nome');
             $table->string('datalancamento');
             $table->integer('qntitens');
             $table->boolean('status');// s=completa ''=incompleta
             $table->timestamps();
-        });
-
-        Schema::table('promocao', function($table) {
-            $table->foreign('idmarca')->references('idmarca')->on('marca');
         });
     }
 
