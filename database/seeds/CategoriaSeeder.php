@@ -13,7 +13,7 @@ class CategoriaSeeder extends Seeder
     {
         //
         $categorias=array(
-            ['nome' => 'Cartão Telefonico', 'created_at' => new DateTime, 'updated_at' => new dateTime]           
+            ['nome' => 'Cartão Telefonico', 'created_at' => new DateTime, 'updated_at' => new dateTime]
         );
         DB::table('categoria')->insert($categorias);
         $this->command->info('Cadastrando Categorias!');

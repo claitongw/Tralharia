@@ -21,3 +21,19 @@ $factory->define(App\User::class, function (Faker\Generator $faker) {
         'remember_token' => str_random(10),
     ];
 });
+
+$factory->define(App\Marca::class, function (Faker\Generator $faker) {
+    return [
+        'nome' => $faker->name,
+        'nacionalidade' => $faker->country
+    ];
+});
+$factory->define(App\Promocao::class, function (Faker\Generator $faker) {
+    return [
+        'marca_id' => 1,
+        'nome' => $faker->name,
+        'datalancamento' => "texto",
+        'qntitens' => 123,
+        'status' => true
+    ];
+});

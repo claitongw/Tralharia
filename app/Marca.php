@@ -9,13 +9,18 @@ class Marca extends Model
     //
     protected $table = 'marca';
 
-	protected $primaryKey = 'idmarca';
-	
-	public function promocao() {
-		return $this->hasMany('App\Promocao', 'idpromocao', 'idpromocao', 'promocao');
-	}
 
-	public function objeto() {
-		return $this->hasMany('App\Objeto', 'idobjeto', 'idobjeto', 'objeto');
-	}
+    public function promocao(){
+        return $this->hasMany('App\Promocao');
+    }
+
+//	protected $primaryKey = 'idmarca';
+
+//	public function promocao() {
+//		return $this->hasMany('App\Promocao', 'idpromocao');
+//	}
+//
+//	public function objeto() {
+//		return $this->hasMany('App\Objeto', 'idobjeto', 'idobjeto', 'objeto');
+//	}
 }
